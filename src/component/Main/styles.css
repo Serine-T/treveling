@@ -1,0 +1,122 @@
+* {
+   user-select: none;
+}
+.for-Grid {
+   width: 1150px;
+   display: grid;
+   margin: 0 auto;
+   grid-template-columns: 352px 352px 352px;
+   grid-template-rows: 320px;
+   gap: 30px;
+}
+
+h2 {
+   text-align: center;
+   font-size: 39.056px;
+}
+
+.samestyles {
+   width: 352px;
+   height: 320px;
+   background-size: cover;
+   border-radius: 5px;
+}
+
+.div4 {
+   margin-top: 650px;
+}
+
+.div5 {
+   margin-top: 400px;
+   margin-top: 650px;
+}
+
+h5 {
+   font-size: 20px;
+   text-align: center;
+   letter-spacing: 1px;
+}
+
+.same-styles-for-div {
+   min-height: 704px;
+   min-width: 352px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   border-radius: 5px;
+   transition: 1s;
+}
+
+.same-styles-for-div:hover {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+p {
+   margin: 0 auto;
+   width: 304px;
+   line-height: 30px;
+}
+
+span {
+   margin: 0 auto;
+   width: 304px;
+   line-height: 30px;
+}
+
+.other-span{
+   color : #10b981;
+   cursor: pointer;
+   font-size: 14px;
+   font-weight: bold;
+   padding-left: 25px;
+}
+
+.other-span.read-more {
+   color : red;
+}
+
+button {
+   width: 304px;
+   height: 29px;
+   display: block;
+   margin: 0 auto;
+   border: 1px solid #10b981;
+   border-radius: 5px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   color: #10b981;
+   background: none;
+   margin-top: 15px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+button:hover {
+   background-color: #10b981;
+   color: white;
+   
+}
+
+.N1-p {
+   padding-top: 31px;
+}
+
+hr {
+   width: 112px;
+   height: 4px;
+   background-color: #10b981;
+   border: none;
+}
+
+.refresh-button {
+   width: 77.69px;
+   height: 27px;
+   background-color: #10b981;
+   border: none;
+   color: White;
+}
+
+.refresh-button:hover {
+   background-color: #108081;
+}
+
+.test {
+   display: flex;
+}
